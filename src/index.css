@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-body: 'Space Grotesk', sans-serif;
+  --font-display: 'Playfair Display', serif;
+  --bg: #0a1412;
+  --bg-alt: #0f1f1c;
+  --text: #f8f8f4;
+  --text-soft: #c9d3ce;
+  --muted: #90a19a;
+  --accent: #f5c45e;
+  --accent-dark: #e3a53a;
+  --panel: rgba(14, 22, 20, 0.9);
+  --panel-soft: rgba(16, 26, 24, 0.88);
+  --panel-border: rgba(255, 255, 255, 0.08);
+  --chip: rgba(255, 255, 255, 0.08);
+  --shadow: rgba(7, 12, 11, 0.45);
+}
+
+:root[data-theme='light'] {
+  --bg: #f4f1ea;
+  --bg-alt: #ffffff;
+  --text: #1d2422;
+  --text-soft: #3a4a46;
+  --muted: #6c7b77;
+  --accent: #c98400;
+  --accent-dark: #a96c00;
+  --panel: rgba(255, 255, 255, 0.85);
+  --panel-soft: rgba(255, 255, 255, 0.85);
+  --panel-border: rgba(15, 24, 22, 0.12);
+  --chip: rgba(15, 24, 22, 0.08);
+  --shadow: rgba(15, 24, 22, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: radial-gradient(circle at top, var(--bg-alt), var(--bg));
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
