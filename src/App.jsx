@@ -211,7 +211,7 @@ function App() {
             </a>
             <a
               className="btn ghost"
-              href="https://linkedin.com/in/logeshwaran-selvam"
+              href="www.linkedin.com/in/logeshwaran-selvam-376932218"
               target="_blank"
               rel="noreferrer"
             >
