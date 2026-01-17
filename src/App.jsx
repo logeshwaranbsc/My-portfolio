@@ -98,7 +98,7 @@ const experience = [
 ]
 
 function App() {
-  const [theme, setTheme] = useState('dark')
+  const [theme, setTheme] = useState('light')
   const [counts, setCounts] = useState(() => highlights.map(() => 0))
   const [showTop, setShowTop] = useState(false)
   const joiningMonth = moment('2024-07-01')
