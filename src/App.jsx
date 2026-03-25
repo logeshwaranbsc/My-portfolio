@@ -221,7 +221,6 @@ function App() {
           <div className="hero__meta">
             <span>Chennai, TN</span>
             <span>Open to full stack roles</span>
-            <span>React.js portfolio stack</span>
           </div>
         </div>
         <div className="hero__panel reveal delay-1">
